@@ -6,7 +6,7 @@
 
 Netra-AI is an open-source, voice-interactive navigation system built for visually impaired individuals. It combines campus navigation, real-time obstacle detection, fall detection, currency recognition, and text reading into a single hands-free pipeline — all communicated through voice.
 
-Built as an **EPICS (Engineering Projects in Community Service)** project at **VIT Bhopal University** under the supervision of **Ms. Priyanka Roy**.
+
 
 ---
 
