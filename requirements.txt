@@ -1,0 +1,25 @@
+
+# Netra-AI — Python dependencies
+# Generated from the actual imports across main.py, navigation_engine.py,
+# voice_input.py, money_detection.py, text_reader.py, fall_detection.py,
+# tts.py, and test_setup.py.
+ 
+# Computer vision / object detection
+opencv-python
+ultralytics          # YOLOv8 — obstacle_navigation.py, money_detection.py
+numpy
+pillow
+ 
+# OCR (text_reader.py)
+pytesseract           # also requires the Tesseract binary — see README
+ 
+# Voice input (voice_input.py)
+sounddevice
+scipy
+SpeechRecognition
+ 
+# Text-to-speech fallback for non-macOS systems
+# tts.py currently shells out to macOS `say`; pyttsx3 is kept here since
+# test_setup.py already imports it and it's the documented swap-in for
+# Windows/Linux (see README "Prerequisites" section).
+pyttsx3

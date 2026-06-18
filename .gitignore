@@ -1,0 +1,39 @@
+# --- Netra-AI runtime artifacts ---
+# voice_input.py writes this temp recording during STT; it's cleaned up
+# in normal runs but can linger if the process crashes mid-call.
+temp.wav
+ 
+# Trained model weights — large binary, shouldn't live in git history.
+# Document download/training steps in README instead.
+models/*.pt
+ 
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+ 
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+ 
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+ 
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+ 
+# --- Jupyter (in case of exploratory notebooks) ---
+.ipynb_checkpoints/
+ 
+# --- Logs ---
+*.log
