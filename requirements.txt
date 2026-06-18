@@ -23,3 +23,5 @@ SpeechRecognition
 # test_setup.py already imports it and it's the documented swap-in for
 # Windows/Linux (see README "Prerequisites" section).
 pyttsx3
+
+streamlit
