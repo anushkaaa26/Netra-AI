@@ -274,6 +274,10 @@ This project is open source under the [MIT License](LICENSE).
 - [OpenCV](https://opencv.org) — camera and image processing
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) — Google STT wrapper
 - VIT Bhopal University EPICS Program
+  
+## Contributors
+- @anushkaaa26 
+- @raghuvendra34
 
 ---
 
